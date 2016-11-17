@@ -1,0 +1,4 @@
+circos作图原理是：通过调用tutorials各个文件夹最底层的circos.conf文件，进行作图，大体的模式是：
+c:\circos-0.69\example\perl ..\bin\circos -conf ..\tutorials\5\4\circos.conf -outputdir .\dahan_output -outputfile dahan_imagex.png
+#其中5\4是可以更换的，因为共有tutorials下面包含了10种大类的作图方式，每个大类下面还会有许多种小雷，另外图的大小可以调整，PNAS上面的图片可能就是同一组染色体数据分别2,3,4,5大类图片绘制并叠加后的效果。
+部分实例图片见C:\circos-0.69\example\dahan_output，里面有9张依据人类染色体数据绘制的图片。
